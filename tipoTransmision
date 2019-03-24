@@ -1,0 +1,20 @@
+public enum tipoTransmision {
+    MANUAL(1),
+    AUTOMATICO(2),
+    HIBRIDO(3);
+    
+    public int idTipoTransmision;
+
+    private tipoTransmision(int idTipoTransmision) {
+        this.idTipoTransmision = idTipoTransmision;
+    }
+
+    public int getIdTipoTransmision() {
+        return idTipoTransmision;
+    }
+
+    public void setIdTipoTransmision(int idTipoTransmision) {
+        this.idTipoTransmision = idTipoTransmision;
+    }
+    
+}
