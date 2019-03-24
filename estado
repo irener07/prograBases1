@@ -1,0 +1,20 @@
+public enum estado {
+    ACTIVO(1),
+    MANTENIMIENTO(2),
+    INACTIVO(3);
+    
+    public int idEstado;
+
+    private estado(int idEstado) {
+        this.idEstado = idEstado;
+    }
+
+    public int getIdEstado() {
+        return idEstado;
+    }
+
+    public void setIdEstado(int idEstado) {
+        this.idEstado = idEstado;
+    }
+    
+}
