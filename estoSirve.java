@@ -17,6 +17,7 @@ import javax.swing.ImageIcon;
  * @author win8
  */
 public class estoSirve {
+	//Esta es una clase con códigos de progras pasadas que me pueden servir para esta 
     private Icon cargarImagen(String url) throws IOException{
         Image imagen;
         imagen=ImageIO.read(new URL(url));
